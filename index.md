@@ -136,7 +136,7 @@ For questions or collaborations, feel free to reach out:
 **Dr. Sangeeta Yadav**  
 Assistant Professor, Dept. of Computer Science  
 University of Delhi  
-📧 [Your Email]  
+📧 [sangeeta@fot.du.ac.in]  
 🔗 [GitHub Link]
 
 ---
