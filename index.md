@@ -1,31 +1,3 @@
-
-
----
-layout: default
----
-
-<script type="text/javascript" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
-# Hemodynamics Prediction in Brain Aneurysms using PINNs
-
-Welcome to the tutorial site for the FDP talk by Dr. Sangeeta Yadav.
-
-## Overview
-
-This tutorial covers:
-
-- Brain aneurysm modeling
-- Physics-informed neural networks (PINNs)
-- Case studies and code demos
-
-## [Colab Demo](https://colab.research.google.com/drive/your-colab-link)
-
-## Slides
-
-[Click here to view slides](slides.pdf)
-
 # Hemodynamics Prediction in Brain Aneurysms using Physics-Informed Neural Networks (PINNs)
 
 Welcome to this tutorial from the Faculty Development Program (FDP) held at **NIT Delhi**, presented by **Dr. Sangeeta Yadav**, Assistant Professor, University of Delhi.
@@ -58,17 +30,17 @@ Blood flow in large vessels can be modeled as **incompressible Newtonian fluid f
 
 $$ \[
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\nabla p + \nu \nabla^2 \mathbf{u}
-\] $$
+\] 
 
-$$
+
 \[
 \nabla \cdot \mathbf{u} = 0
 \]
 $$
 Where:
-- \(\mathbf{u}\) = velocity vector field
-- \(p\) = pressure
-- \(\nu\) = kinematic viscosity
+- $$\(\mathbf{u}\)$$ = velocity vector field
+- $$\(p\)$$ = pressure
+- $$\(\nu\)$$ = kinematic viscosity
 
 ---
 
