@@ -1,3 +1,5 @@
+
+
 ---
 layout: default
 ---
@@ -54,14 +56,15 @@ A **brain aneurysm** is a bulge or ballooning in a blood vessel in the brain. Ru
 
 Blood flow in large vessels can be modeled as **incompressible Newtonian fluid flow** governed by the **Navier-Stokes equations**:
 
-\[
+$$ \[
 \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\nabla p + \nu \nabla^2 \mathbf{u}
-\]
+\] $$
 
+$$
 \[
 \nabla \cdot \mathbf{u} = 0
 \]
-
+$$
 Where:
 - \(\mathbf{u}\) = velocity vector field
 - \(p\) = pressure
